@@ -25,7 +25,6 @@ public class Author {
   }
 
 
-
   public Long getId() {
     return id;
   }
@@ -60,15 +59,11 @@ public class Author {
 
   @Override
   public String toString() {
-    return "Author{"
-        + "id="
-        + id
-        + ", firstName='"
-        + firstName
-        + '\''
-        + ", lastName='"
-        + lastName
-        + '}';
+    return "Author{" +
+            "id=" + id +
+            ", firstName='" + firstName + '\'' +
+            ", lastName='" + lastName + '\'' +
+            '}';
   }
 
   @Override
