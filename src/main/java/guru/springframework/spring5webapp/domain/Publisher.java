@@ -18,6 +18,7 @@ public class Publisher {
     private String state;
     private String zip;
 
+    // Publisher is ONE and has MANY books
     @OneToMany
     @JoinColumn(name = "publisher_id")
     private Set<Book> books = new HashSet<>();
