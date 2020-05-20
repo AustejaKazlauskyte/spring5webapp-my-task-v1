@@ -1,7 +1,6 @@
 package guru.springframework.spring5webapp.domain;
 
 import javax.persistence.*;
-import java.awt.print.Book;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
